@@ -1,0 +1,83 @@
+.box_model {@include boxModel; }
+
+.boxPadding {padding: $boxT $boxR $boxB $boxL; }
+
+.boxHeader {
+	background: $mainColor;
+	border-color: $mainColor;
+	color: #fff;
+}
+.greenBox {
+	background-color: lighten($mainColor, 1%);
+	color: #fff !important;
+	font-size: 120%;
+	opacity: .75;
+}
+
+.page_section {margin-top: 30px; margin-bottom: 30px;}
+
+.mt--0 {margin-top: 0px; }
+.mt--10 {margin-top: 10px; }
+.mt--20 {margin-top: 20px; }
+.mt--30 {margin-top: 30px; }
+.mt--50 {margin-top: 50px; }
+.mt--80 {margin-top: 80px; }
+.mb--0 {margin-bottom: 0px; }
+.mb--10 {margin-bottom: 10px; }
+.mb--20 {margin-bottom: 20px; }
+.mb--30 {margin-bottom: 30px; }
+.mb--50 {margin-bottom: 50px; }
+.mb--80 {margin-bottom: 80px; }
+
+.pt--10 {padding-top: 10px; }
+.pt--20 {padding-top: 20px; }
+.pt--30 {padding-top: 30px; }
+.pt--50 {padding-top: 50px; }
+.pt--40 {padding-top: 40px; }
+.pt--60 {padding-top: 60px; }
+.pt--80 {padding-top: 80px; }
+.pb--10 {padding-bottom: 10px; }
+.pb--20 {padding-bottom: 20px; }
+.pb--30 {padding-bottom: 30px; }
+.pb--50 {padding-bottom: 50px; }
+.pb--60 {padding-bottom: 60px; }
+.pb--80 {padding-bottom: 80px; }
+
+.text_italic {
+	font-style: italic;
+}
+
+.align_right {
+	text-align: right;
+}
+.align_left {
+	text-align: left;
+}
+.align_center {
+	text-align: center;
+}
+
+.btn_primary {
+	background-color: $primary;
+}
+.bg_primary {
+	background-color: $primary;
+}
+
+.text_primary {
+	color: $primary;
+	&:hover {
+		color: darken($primary, 5%);
+	}
+}
+
+.bg_danger {
+	background-color: lighten($secondaryColor, 5%);
+}
+
+.text_danger {
+	color: lighten($secondaryColor, 5%);
+	&:hover {
+		color: darken($secondaryColor, 5%);
+	}
+}

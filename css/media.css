@@ -1,0 +1,25 @@
+@media (min-width: 0px) and (max-width: 992px) {
+    .tur-blu-wr{
+        flex-direction: column;
+    }
+
+    .tur-blu{
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 0px) and (max-width: 640px) {
+    .tur-blu-wr{
+        flex-direction: column;
+    }
+
+    .tur-blu{
+        width: 100%;
+    }
+
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
