@@ -69,9 +69,11 @@
             <div class="contact_phone"><?php
               echo get_theme_mod('para_numbers_three');
             ?></div>
-            <button class="butmodal	btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">ЗАКАЗАТЬ ЗВОНОК</button>
           </div>
-          <div class="social_ico">
+            <div class="clearfix">
+              <button class="butmodal	btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">ЗАКАЗАТЬ ЗВОНОК</button>
+            </div>
+          <div class="social_icons">
             <a href="<?php echo get_theme_mod('para_social_facebook');?>" target="_blank">
               <img src="<?=bloginfo('template_url')?>/images/fb.png" alt="social_ico">
             </a>

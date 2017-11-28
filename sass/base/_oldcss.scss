@@ -121,14 +121,6 @@ body {
 	text-align: right;
 	margin-right: 18px;
 }
-.social_ico {
-	a {
-		&:first-child {
-			margin-left: 78px;
-		}
-		margin-left: 3px;
-	}
-}
 
 .name_tour {
 	background-image: url(images/linage_bg.png);
@@ -1184,13 +1176,6 @@ body.tag {
 	}
 }
 @media only screen and (max-width : 1199px) {
-	.social_ico {
-		a {
-			&:first-child {
-				margin-left: 28px;
-			}
-		}
-	}
 	.logo {
 		img {
 			margin-left: 0;
@@ -1290,9 +1275,6 @@ body.tag {
 	}
 	.contact_phone {
 		margin-right: 0;
-	}
-	.social_ico {
-		text-align: right;
 	}
 	.no-gutter {
 		text-align: center;
@@ -1403,15 +1385,6 @@ body.tag {
 			margin: 0 0 10px;
 			display: block;
 			width: auto;
-		}
-	}
-	.social_ico {
-		padding-bottom: 10px;
-		text-align: center;
-		a {
-			&:first-child {
-				margin-left: 0;
-			}
 		}
 	}
 	body {

@@ -14,3 +14,21 @@
   	}
   }
 }
+
+.social_icons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: calc(48px*4);
+	float: right;
+	padding-right: 22px;
+
+	a {
+		display: inline-flex;
+		margin-right: 8px;
+
+		&:last-of-type {
+			margin-right: 0;
+		}
+	}
+}

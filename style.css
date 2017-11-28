@@ -9165,15 +9165,6 @@ body {
 }
 
 /* line 125, sass/base/_oldcss.scss */
-.social_ico a {
-  margin-left: 3px;
-}
-/* line 126, sass/base/_oldcss.scss */
-.social_ico a:first-child {
-  margin-left: 78px;
-}
-
-/* line 133, sass/base/_oldcss.scss */
 .name_tour {
   background-image: url(images/linage_bg.png);
   background-position: center;
@@ -9184,14 +9175,14 @@ body {
   margin: 20px 0 20px 0;
 }
 
-/* line 142, sass/base/_oldcss.scss */
+/* line 134, sass/base/_oldcss.scss */
 .name_tour_text {
   background: #fff;
   display: inline-block;
   padding: 0 23px;
 }
 
-/* line 147, sass/base/_oldcss.scss */
+/* line 139, sass/base/_oldcss.scss */
 .name_tour1 {
   background-image: url(images/linage_bg.png);
   background-position: center;
@@ -9202,7 +9193,7 @@ body {
   margin: 10px 0 0 10px;
 }
 
-/* line 156, sass/base/_oldcss.scss */
+/* line 148, sass/base/_oldcss.scss */
 .form_tour {
   display: flex;
   flex-direction: row;
@@ -9212,19 +9203,19 @@ body {
   padding-top: 5px;
   margin-top: 25px;
 }
-/* line 164, sass/base/_oldcss.scss */
+/* line 156, sass/base/_oldcss.scss */
 .form_tour label {
   color: #72737f;
   font-weight: 400;
   font-size: 12px;
 }
 
-/* line 170, sass/base/_oldcss.scss */
+/* line 162, sass/base/_oldcss.scss */
 .but {
   margin-top: 9px;
 }
 
-/* line 173, sass/base/_oldcss.scss */
+/* line 165, sass/base/_oldcss.scss */
 .form_tourists {
   display: flex;
   flex-direction: row;
@@ -9233,46 +9224,46 @@ body {
   background: #273d54;
   padding-top: 5px;
 }
-/* line 180, sass/base/_oldcss.scss */
+/* line 172, sass/base/_oldcss.scss */
 .form_tourists label {
   color: #fff;
   font-weight: 400;
   font-size: 12px;
 }
 
-/* line 186, sass/base/_oldcss.scss */
+/* line 178, sass/base/_oldcss.scss */
 .tourists_men {
   display: flex;
   flex-direction: column;
 }
 
-/* line 190, sass/base/_oldcss.scss */
+/* line 182, sass/base/_oldcss.scss */
 .tourists_men_people {
   display: flex;
   flex-direction: row;
 }
 
-/* line 194, sass/base/_oldcss.scss */
+/* line 186, sass/base/_oldcss.scss */
 .form_tourists_name {
   color: white;
   font-size: 12px;
   padding-top: 5px;
 }
 
-/* line 200, sass/base/_oldcss.scss */
+/* line 192, sass/base/_oldcss.scss */
 .new_in a {
   font-size: 10px;
   border-bottom: 1px dotted;
   color: white;
   text-decoration: none;
 }
-/* line 205, sass/base/_oldcss.scss */
+/* line 197, sass/base/_oldcss.scss */
 .new_in a:hover {
   text-decoration: none;
   border-bottom: none;
 }
 
-/* line 211, sass/base/_oldcss.scss */
+/* line 203, sass/base/_oldcss.scss */
 .name_tour_country {
   background: #2c5495;
   background-image: url(/images/star_tour.png);
@@ -9285,13 +9276,13 @@ body {
   padding: 30px 0;
 }
 
-/* line 223, sass/base/_oldcss.scss */
+/* line 215, sass/base/_oldcss.scss */
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
 }
 
-/* line 228, sass/base/_oldcss.scss */
+/* line 220, sass/base/_oldcss.scss */
 .tour_info {
   background-color: #d4d7d8;
   width: 100%;
@@ -9300,19 +9291,19 @@ body {
   padding: 10px;
 }
 
-/* line 235, sass/base/_oldcss.scss */
+/* line 227, sass/base/_oldcss.scss */
 .tour_info_text {
   font-size: 16px;
   color: #0d3577;
   font-weight: 600;
 }
 
-/* line 240, sass/base/_oldcss.scss */
+/* line 232, sass/base/_oldcss.scss */
 .tour_info_a {
   display: flex;
   align-items: center;
 }
-/* line 243, sass/base/_oldcss.scss */
+/* line 235, sass/base/_oldcss.scss */
 .tour_info_a a {
   background-color: #d92128;
   padding: 5px 25px;
@@ -9320,14 +9311,14 @@ body {
   color: white;
 }
 
-/* line 250, sass/base/_oldcss.scss */
+/* line 242, sass/base/_oldcss.scss */
 .tour_info_price {
   color: #d92128;
   font-family: "Impact", sans-serif;
   font-size: 40px;
   font-weight: 600;
 }
-/* line 255, sass/base/_oldcss.scss */
+/* line 247, sass/base/_oldcss.scss */
 .tour_info_price span {
   color: #d92128;
   font-family: "Impact", sans-serif;
@@ -9336,17 +9327,17 @@ body {
   margin-top: -5px;
 }
 
-/* line 263, sass/base/_oldcss.scss */
+/* line 255, sass/base/_oldcss.scss */
 .subscription_shares {
   background-color: #dddddd;
   padding: 15px;
 }
-/* line 266, sass/base/_oldcss.scss */
+/* line 258, sass/base/_oldcss.scss */
 .subscription_shares .btn-primary {
   font-weight: 400;
 }
 
-/* line 270, sass/base/_oldcss.scss */
+/* line 262, sass/base/_oldcss.scss */
 .subscription_n {
   text-align: center;
   font-size: 20px;
@@ -9354,60 +9345,60 @@ body {
   color: #000000;
 }
 
-/* line 276, sass/base/_oldcss.scss */
+/* line 268, sass/base/_oldcss.scss */
 .subscription_t {
   text-align: center;
   font-size: 16px;
   color: #000000;
 }
 
-/* line 281, sass/base/_oldcss.scss */
+/* line 273, sass/base/_oldcss.scss */
 .tag_cloud {
   margin: 20px 0;
   justify-content: center;
 }
-/* line 284, sass/base/_oldcss.scss */
+/* line 276, sass/base/_oldcss.scss */
 .tag_cloud a {
   color: #B5C2EE;
   font-weight: 600;
   font-family: Arial, Myriad Pro;
 }
 
-/* line 290, sass/base/_oldcss.scss */
+/* line 282, sass/base/_oldcss.scss */
 .right_sidebar_wr {
   margin: 30px 0;
 }
 
-/* line 293, sass/base/_oldcss.scss */
+/* line 285, sass/base/_oldcss.scss */
 .right_sidebar_wr1 {
   margin: 30px 0;
 }
 
-/* line 296, sass/base/_oldcss.scss */
+/* line 288, sass/base/_oldcss.scss */
 .right_sidebar_news {
   padding: 10px 0;
 }
-/* line 297, sass/base/_oldcss.scss */
+/* line 289, sass/base/_oldcss.scss */
 .right_sidebar_news:first-child {
   margin-top: 10px;
 }
-/* line 301, sass/base/_oldcss.scss */
+/* line 293, sass/base/_oldcss.scss */
 .right_sidebar_news p {
   margin: 0 0 0;
 }
 
-/* line 305, sass/base/_oldcss.scss */
+/* line 297, sass/base/_oldcss.scss */
 .tour_country_wr {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-/* line 308, sass/base/_oldcss.scss */
+/* line 300, sass/base/_oldcss.scss */
 .tour_country_wr a {
   display: block;
   position: relative;
   max-width: 385px;
 }
-/* line 313, sass/base/_oldcss.scss */
+/* line 305, sass/base/_oldcss.scss */
 .tour_country_wr a:before {
   content: '';
   position: absolute;
@@ -9420,16 +9411,16 @@ body {
   z-index: 2;
   transition: all .3s ease-in;
 }
-/* line 324, sass/base/_oldcss.scss */
+/* line 316, sass/base/_oldcss.scss */
 .tour_country_wr a:hover:before {
   background: transparent;
 }
-/* line 327, sass/base/_oldcss.scss */
+/* line 319, sass/base/_oldcss.scss */
 .tour_country_wr a:hover img {
   transform: scale(1.02);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
-/* line 333, sass/base/_oldcss.scss */
+/* line 325, sass/base/_oldcss.scss */
 .tour_country_wr img {
   max-width: 385px;
   width: 100%;
@@ -9438,7 +9429,7 @@ body {
   transition: all .3s ease-in;
 }
 
-/* line 341, sass/base/_oldcss.scss */
+/* line 333, sass/base/_oldcss.scss */
 .right_sidebar_head {
   background-color: #2c5495;
   font-size: 20px;
@@ -9448,32 +9439,32 @@ body {
   padding: 10px;
 }
 
-/* line 349, sass/base/_oldcss.scss */
+/* line 341, sass/base/_oldcss.scss */
 .right_sidebar_info {
   display: block;
   margin: 15px 0;
 }
-/* line 352, sass/base/_oldcss.scss */
+/* line 344, sass/base/_oldcss.scss */
 .right_sidebar_info img {
   width: 100%;
   height: auto;
 }
-/* line 356, sass/base/_oldcss.scss */
+/* line 348, sass/base/_oldcss.scss */
 .right_sidebar_info p {
   padding: 5px 15px;
 }
-/* line 359, sass/base/_oldcss.scss */
+/* line 351, sass/base/_oldcss.scss */
 .right_sidebar_info a {
   display: block;
 }
 
-/* line 363, sass/base/_oldcss.scss */
+/* line 355, sass/base/_oldcss.scss */
 .line_hr {
   border-top: 3px solid #ddd;
   padding-top: 20px;
 }
 
-/* line 367, sass/base/_oldcss.scss */
+/* line 359, sass/base/_oldcss.scss */
 .copy_button {
   display: flex;
   justify-content: space-between;
@@ -9481,17 +9472,17 @@ body {
   font-size: 20px;
 }
 
-/* line 374, sass/base/_oldcss.scss */
+/* line 366, sass/base/_oldcss.scss */
 .copy p {
   font-size: 14px;
 }
 
-/* line 378, sass/base/_oldcss.scss */
+/* line 370, sass/base/_oldcss.scss */
 .info_law {
   margin-top: 0px;
 }
 
-/* line 381, sass/base/_oldcss.scss */
+/* line 373, sass/base/_oldcss.scss */
 .menu-footer-menu-links-container {
   display: flex;
   justify-content: center;
@@ -9499,14 +9490,14 @@ body {
   position: relative;
 }
 
-/* line 387, sass/base/_oldcss.scss */
+/* line 379, sass/base/_oldcss.scss */
 .footer_menu {
   background-color: #ddd;
   height: auto;
   padding: 20px 0;
   display: flex;
 }
-/* line 392, sass/base/_oldcss.scss */
+/* line 384, sass/base/_oldcss.scss */
 .footer_menu ul#menu-footer-menu-links {
   position: relative;
   margin: 0;
@@ -9515,7 +9506,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-/* line 399, sass/base/_oldcss.scss */
+/* line 391, sass/base/_oldcss.scss */
 .footer_menu ul#menu-footer-menu-links a {
   text-decoration: none;
   padding: 5px;
@@ -9523,32 +9514,32 @@ body {
   border-radius: 2px;
   transition: all .3s ease-in;
 }
-/* line 405, sass/base/_oldcss.scss */
+/* line 397, sass/base/_oldcss.scss */
 .footer_menu ul#menu-footer-menu-links a:first-of-type {
   margin-right: 3px;
 }
-/* line 408, sass/base/_oldcss.scss */
+/* line 400, sass/base/_oldcss.scss */
 .footer_menu ul#menu-footer-menu-links a:hover {
   background-color: #DA2127;
   color: #fff;
 }
 
-/* line 416, sass/base/_oldcss.scss */
+/* line 408, sass/base/_oldcss.scss */
 footer .col-md-3 {
   background-color: #ddd;
 }
 
-/* line 420, sass/base/_oldcss.scss */
+/* line 412, sass/base/_oldcss.scss */
 .foot-info {
   padding: 0 0 10px;
 }
 
-/* line 423, sass/base/_oldcss.scss */
+/* line 415, sass/base/_oldcss.scss */
 .stroke {
   margin-bottom: 5px;
 }
 
-/* line 426, sass/base/_oldcss.scss */
+/* line 418, sass/base/_oldcss.scss */
 .reviews_form {
   background-color: #2d5495;
   padding: 15px 40px;
@@ -9557,19 +9548,19 @@ footer .col-md-3 {
   width: 100%;
   margin: 15px auto;
 }
-/* line 433, sass/base/_oldcss.scss */
+/* line 425, sass/base/_oldcss.scss */
 .reviews_form p {
   font-size: 15px;
   text-transform: uppercase;
   color: white;
 }
 
-/* line 439, sass/base/_oldcss.scss */
+/* line 431, sass/base/_oldcss.scss */
 .show-f {
   display: none;
 }
 
-/* line 442, sass/base/_oldcss.scss */
+/* line 434, sass/base/_oldcss.scss */
 .show-f.act {
   display: block;
   text-align: center;
@@ -9582,12 +9573,12 @@ footer .col-md-3 {
   cursor: pointer;
   transition: all 0.3s;
 }
-/* line 453, sass/base/_oldcss.scss */
+/* line 445, sass/base/_oldcss.scss */
 .show-f.act:hover {
   background: #DEDEDE;
 }
 
-/* line 457, sass/base/_oldcss.scss */
+/* line 449, sass/base/_oldcss.scss */
 .cloze-f {
   position: absolute;
   background: url(images/cloze.png) no-repeat center;
@@ -9599,85 +9590,85 @@ footer .col-md-3 {
   cursor: pointer;
 }
 
-/* line 467, sass/base/_oldcss.scss */
+/* line 459, sass/base/_oldcss.scss */
 .review {
   width: 700px;
 }
 
-/* line 470, sass/base/_oldcss.scss */
+/* line 462, sass/base/_oldcss.scss */
 .form-men-woomen {
   display: flex;
   align-items: center;
 }
-/* line 473, sass/base/_oldcss.scss */
+/* line 465, sass/base/_oldcss.scss */
 .form-men-woomen .in_name2 {
   height: 54px;
 }
-/* line 477, sass/base/_oldcss.scss */
+/* line 469, sass/base/_oldcss.scss */
 .form-men-woomen .checkbox + .checkbox {
   margin-top: 10px;
 }
-/* line 481, sass/base/_oldcss.scss */
+/* line 473, sass/base/_oldcss.scss */
 .form-men-woomen textarea {
   margin: 10px 0;
 }
 
-/* line 485, sass/base/_oldcss.scss */
+/* line 477, sass/base/_oldcss.scss */
 .in_name {
   width: 100%;
 }
-/* line 487, sass/base/_oldcss.scss */
+/* line 479, sass/base/_oldcss.scss */
 .in_name .form-control {
   height: 54px;
 }
 
-/* line 492, sass/base/_oldcss.scss */
+/* line 484, sass/base/_oldcss.scss */
 .checkbox input[type=checkbox] {
   position: absolute;
   margin-top: 55px;
   margin-left: -30px;
 }
 
-/* line 499, sass/base/_oldcss.scss */
+/* line 491, sass/base/_oldcss.scss */
 .checkbox-inline input[type=checkbox] {
   position: absolute;
   margin-top: 55px;
   margin-left: -30px;
 }
 
-/* line 506, sass/base/_oldcss.scss */
+/* line 498, sass/base/_oldcss.scss */
 .radio input[type=radio] {
   position: absolute;
   margin-top: 55px;
   margin-left: -30px;
 }
-/* line 511, sass/base/_oldcss.scss */
+/* line 503, sass/base/_oldcss.scss */
 .radio + .radio {
   margin-top: 10px;
 }
 
-/* line 516, sass/base/_oldcss.scss */
+/* line 508, sass/base/_oldcss.scss */
 .radio-inline input[type=radio] {
   position: absolute;
   margin-top: 55px;
   margin-left: -30px;
 }
 
-/* line 522, sass/base/_oldcss.scss */
+/* line 514, sass/base/_oldcss.scss */
 .reviews_text {
   margin-top: 30px;
   display: flex;
 }
 
-/* line 526, sass/base/_oldcss.scss */
+/* line 518, sass/base/_oldcss.scss */
 .reviews_text_info {
   margin-left: 25px;
 }
-/* line 528, sass/base/_oldcss.scss */
+/* line 520, sass/base/_oldcss.scss */
 .reviews_text_info .date {
   font-weight: 600;
 }
-/* line 532, sass/base/_oldcss.scss */
+/* line 524, sass/base/_oldcss.scss */
 .reviews_text_info .review span {
   color: #3357a3;
   text-transform: uppercase;
@@ -9685,7 +9676,7 @@ footer .col-md-3 {
   font-weight: 600;
 }
 
-/* line 540, sass/base/_oldcss.scss */
+/* line 532, sass/base/_oldcss.scss */
 .reviews_in_reviews {
   background-color: #ccc;
   display: flex;
@@ -9694,25 +9685,25 @@ footer .col-md-3 {
   font-weight: 600;
   width: 100%;
 }
-/* line 547, sass/base/_oldcss.scss */
+/* line 539, sass/base/_oldcss.scss */
 .reviews_in_reviews img {
   margin-right: 15px;
 }
-/* line 550, sass/base/_oldcss.scss */
+/* line 542, sass/base/_oldcss.scss */
 .reviews_in_reviews p {
   padding-top: 10px;
 }
 
-/* line 554, sass/base/_oldcss.scss */
+/* line 546, sass/base/_oldcss.scss */
 .tur-name-wr {
   width: 100%;
   margin-bottom: 50px;
 }
-/* line 557, sass/base/_oldcss.scss */
+/* line 549, sass/base/_oldcss.scss */
 .tur-name-wr:last-child {
   margin-bottom: 25px;
 }
-/* line 560, sass/base/_oldcss.scss */
+/* line 552, sass/base/_oldcss.scss */
 .tur-name-wr .btn-primary {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -9720,14 +9711,14 @@ footer .col-md-3 {
   border-color: #2e6da4;
 }
 
-/* line 567, sass/base/_oldcss.scss */
+/* line 559, sass/base/_oldcss.scss */
 .tur-blu-wr {
   display: flex;
   align-items: center;
   width: 100%;
 }
 
-/* line 572, sass/base/_oldcss.scss */
+/* line 564, sass/base/_oldcss.scss */
 .tur-blu {
   background-color: #2c5495;
   font-size: 24px;
@@ -9743,12 +9734,12 @@ footer .col-md-3 {
   margin: 0 0 15px 0;
 }
 
-/* line 586, sass/base/_oldcss.scss */
+/* line 578, sass/base/_oldcss.scss */
 .colspan_padding {
   padding: 15px 0px;
 }
 
-/* line 589, sass/base/_oldcss.scss */
+/* line 581, sass/base/_oldcss.scss */
 .tur-blu-col {
   display: flex;
   flex-direction: column;
@@ -9756,59 +9747,59 @@ footer .col-md-3 {
   padding: 0 30px;
   font-size: 30px;
 }
-/* line 595, sass/base/_oldcss.scss */
+/* line 587, sass/base/_oldcss.scss */
 .tur-blu-col span {
   font-size: 20px;
 }
 
-/* line 599, sass/base/_oldcss.scss */
+/* line 591, sass/base/_oldcss.scss */
 .departure {
   display: flex;
   margin: auto;
 }
 
-/* line 603, sass/base/_oldcss.scss */
+/* line 595, sass/base/_oldcss.scss */
 .departure_dep {
   font-size: 20px;
   font-weight: 600;
 }
 
-/* line 607, sass/base/_oldcss.scss */
+/* line 599, sass/base/_oldcss.scss */
 .departure_date {
   font-size: 18px;
 }
 
-/* line 610, sass/base/_oldcss.scss */
+/* line 602, sass/base/_oldcss.scss */
 .tur-table {
   margin-top: 20px;
 }
-/* line 613, sass/base/_oldcss.scss */
+/* line 605, sass/base/_oldcss.scss */
 .tur-table table tbody {
   margin: auto;
 }
 
-/* line 618, sass/base/_oldcss.scss */
+/* line 610, sass/base/_oldcss.scss */
 .tur-table-name {
   font-size: 22px;
   font-weight: bold;
 }
 
-/* line 622, sass/base/_oldcss.scss */
+/* line 614, sass/base/_oldcss.scss */
 .tur-table-td1 {
   font-size: 20px;
   font-weight: 600;
 }
 
-/* line 626, sass/base/_oldcss.scss */
+/* line 618, sass/base/_oldcss.scss */
 .tur-table-td2 {
   font-size: 18px;
 }
 
-/* line 630, sass/base/_oldcss.scss */
+/* line 622, sass/base/_oldcss.scss */
 .btn-buy .btn-block {
   margin-bottom: 15px;
 }
-/* line 633, sass/base/_oldcss.scss */
+/* line 625, sass/base/_oldcss.scss */
 .btn-buy .btn-danger {
   background-color: #d92128;
   font-size: 25px;
@@ -9820,12 +9811,12 @@ footer .col-md-3 {
   align-items: center;
   justify-content: center;
 }
-/* line 643, sass/base/_oldcss.scss */
+/* line 635, sass/base/_oldcss.scss */
 .btn-buy .btn-danger:hover {
   background-color: red;
   transition: 0.3s;
 }
-/* line 648, sass/base/_oldcss.scss */
+/* line 640, sass/base/_oldcss.scss */
 .btn-buy .btn-primary {
   background-color: #1d99dc;
   font-size: 25px;
@@ -9837,18 +9828,18 @@ footer .col-md-3 {
   align-items: center;
   justify-content: center;
 }
-/* line 658, sass/base/_oldcss.scss */
+/* line 650, sass/base/_oldcss.scss */
 .btn-buy .btn-primary:hover {
   background-color: blue;
   transition: 0.3s;
 }
-/* line 664, sass/base/_oldcss.scss */
+/* line 656, sass/base/_oldcss.scss */
 .btn-buy .col-md-6 .btn-primary {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-/* line 669, sass/base/_oldcss.scss */
+/* line 661, sass/base/_oldcss.scss */
 .btn-buy .col-md-6 .btn-danger {
   display: flex;
   float: right;
@@ -9856,29 +9847,29 @@ footer .col-md-3 {
   justify-content: center;
 }
 
-/* line 677, sass/base/_oldcss.scss */
+/* line 669, sass/base/_oldcss.scss */
 .news-wr {
   border-bottom: 1px solid #363636;
   padding-bottom: 25px;
   margin-bottom: 25px;
 }
-/* line 681, sass/base/_oldcss.scss */
+/* line 673, sass/base/_oldcss.scss */
 .news-wr:last-child {
   border: 0 !important;
 }
 
-/* line 685, sass/base/_oldcss.scss */
+/* line 677, sass/base/_oldcss.scss */
 .news-date {
   font-size: 14px;
   font-weight: 600;
 }
 
-/* line 689, sass/base/_oldcss.scss */
+/* line 681, sass/base/_oldcss.scss */
 .news-info {
   font-size: 16px;
   text-align: justify;
 }
-/* line 690, sass/base/_oldcss.scss */
+/* line 682, sass/base/_oldcss.scss */
 .news-info img {
   max-width: 412px;
   max-height: 275px;
@@ -9886,7 +9877,7 @@ footer .col-md-3 {
   float: left;
   margin: 0 15px 0 0;
 }
-/* line 699, sass/base/_oldcss.scss */
+/* line 691, sass/base/_oldcss.scss */
 .news-info span {
   text-transform: uppercase;
   color: #2c5495;
@@ -9894,7 +9885,7 @@ footer .col-md-3 {
   font-weight: 600;
   font-style: normal;
 }
-/* line 707, sass/base/_oldcss.scss */
+/* line 699, sass/base/_oldcss.scss */
 .news-info .text-right .btn-primary {
   background-color: #d4d7d8;
   padding: 12px 55px;
@@ -9916,23 +9907,23 @@ footer .col-md-3 {
   border-color: #2e6da4;
 }
 
-/* line 729, sass/base/_oldcss.scss */
+/* line 721, sass/base/_oldcss.scss */
 .search {
   margin-bottom: 20px;
 }
 
-/* line 732, sass/base/_oldcss.scss */
+/* line 724, sass/base/_oldcss.scss */
 .search-submit {
   margin: 0 0 3px 0;
 }
 
-/* line 735, sass/base/_oldcss.scss */
+/* line 727, sass/base/_oldcss.scss */
 .container {
   background-color: #fff;
   list-style-type: square;
 }
 
-/* line 740, sass/base/_oldcss.scss */
+/* line 732, sass/base/_oldcss.scss */
 .tagpost a {
   background: #999999;
   border-radius: 2px;
@@ -9942,61 +9933,61 @@ footer .col-md-3 {
   font-size: 11px;
 }
 
-/* line 749, sass/base/_oldcss.scss */
+/* line 741, sass/base/_oldcss.scss */
 .flag-box {
   max-width: 560px;
   margin: 0 auto;
 }
-/* line 752, sass/base/_oldcss.scss */
+/* line 744, sass/base/_oldcss.scss */
 .flag-box .bx {
   overflow: hidden;
   width: 50%;
   float: left;
 }
-/* line 756, sass/base/_oldcss.scss */
+/* line 748, sass/base/_oldcss.scss */
 .flag-box .bx .img {
   display: inline-block;
   vertical-align: middle;
   margin-right: 30px;
 }
-/* line 761, sass/base/_oldcss.scss */
+/* line 753, sass/base/_oldcss.scss */
 .flag-box .bx p {
   display: inline-block;
   vertical-align: middle;
   margin: 0;
   max-width: 440px;
 }
-/* line 768, sass/base/_oldcss.scss */
+/* line 760, sass/base/_oldcss.scss */
 .flag-box .bx1 {
   width: auto;
   float: none;
   margin-bottom: 30px;
 }
-/* line 773, sass/base/_oldcss.scss */
+/* line 765, sass/base/_oldcss.scss */
 .flag-box .wr {
   margin-bottom: 30px;
   overflow: hidden;
 }
 
-/* line 779, sass/base/_oldcss.scss */
+/* line 771, sass/base/_oldcss.scss */
 .touts-box img {
   width: 100%;
   margin-bottom: 30px;
   height: auto;
 }
 
-/* line 787, sass/base/_oldcss.scss */
+/* line 779, sass/base/_oldcss.scss */
 .col-md-9 ul li {
   list-style-type: disc;
 }
 
-/* line 792, sass/base/_oldcss.scss */
+/* line 784, sass/base/_oldcss.scss */
 #paginate {
   margin: 10px 0 20px;
   text-align: center;
   color: #333;
 }
-/* line 796, sass/base/_oldcss.scss */
+/* line 788, sass/base/_oldcss.scss */
 #paginate a {
   display: inline-block;
   margin-right: 5px;
@@ -10008,12 +9999,12 @@ footer .col-md-3 {
   font: normal 16px Arial, sans-serif;
   color: #fff;
 }
-/* line 806, sass/base/_oldcss.scss */
+/* line 798, sass/base/_oldcss.scss */
 #paginate a:hover {
   background: #DA2127;
   color: #fff;
 }
-/* line 811, sass/base/_oldcss.scss */
+/* line 803, sass/base/_oldcss.scss */
 #paginate .prev {
   display: inline-block;
   margin-right: 5px;
@@ -10025,12 +10016,12 @@ footer .col-md-3 {
   font: normal 16px Arial, sans-serif;
   color: #fff;
 }
-/* line 821, sass/base/_oldcss.scss */
+/* line 813, sass/base/_oldcss.scss */
 #paginate .prev:hover {
   background: #DA2127;
   color: #fff;
 }
-/* line 826, sass/base/_oldcss.scss */
+/* line 818, sass/base/_oldcss.scss */
 #paginate .next {
   display: inline-block;
   margin-right: 5px;
@@ -10042,12 +10033,12 @@ footer .col-md-3 {
   font: normal 16px Arial, sans-serif;
   color: #fff;
 }
-/* line 836, sass/base/_oldcss.scss */
+/* line 828, sass/base/_oldcss.scss */
 #paginate .next:hover {
   background: #DA2127;
   color: #fff;
 }
-/* line 841, sass/base/_oldcss.scss */
+/* line 833, sass/base/_oldcss.scss */
 #paginate .current {
   display: inline-block;
   margin-right: 5px;
@@ -10061,14 +10052,14 @@ footer .col-md-3 {
   background: #DA2127;
   color: #fff;
 }
-/* line 854, sass/base/_oldcss.scss */
+/* line 846, sass/base/_oldcss.scss */
 #paginate .dots {
   color: #000;
   margin: 2px;
   padding: 4px 8px;
 }
 
-/* line 860, sass/base/_oldcss.scss */
+/* line 852, sass/base/_oldcss.scss */
 .owl-carousel {
   display: none;
   width: 100%;
@@ -10076,13 +10067,13 @@ footer .col-md-3 {
   position: relative;
   z-index: 1;
 }
-/* line 866, sass/base/_oldcss.scss */
+/* line 858, sass/base/_oldcss.scss */
 .owl-carousel .owl-stage {
   position: relative;
   -ms-touch-action: pan-Y;
   -moz-backface-visibility: hidden;
 }
-/* line 870, sass/base/_oldcss.scss */
+/* line 862, sass/base/_oldcss.scss */
 .owl-carousel .owl-stage:after {
   content: ".";
   display: block;
@@ -10091,13 +10082,13 @@ footer .col-md-3 {
   line-height: 0;
   height: 0;
 }
-/* line 879, sass/base/_oldcss.scss */
+/* line 871, sass/base/_oldcss.scss */
 .owl-carousel .owl-stage-outer {
   position: relative;
   overflow: hidden;
   -webkit-transform: translate3d(0px, 0px, 0px);
 }
-/* line 884, sass/base/_oldcss.scss */
+/* line 876, sass/base/_oldcss.scss */
 .owl-carousel .owl-wrapper {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -10106,7 +10097,7 @@ footer .col-md-3 {
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
 }
-/* line 892, sass/base/_oldcss.scss */
+/* line 884, sass/base/_oldcss.scss */
 .owl-carousel .owl-item {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -10121,29 +10112,29 @@ footer .col-md-3 {
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
 }
-/* line 905, sass/base/_oldcss.scss */
+/* line 897, sass/base/_oldcss.scss */
 .owl-carousel .owl-item img {
   display: block;
   width: 100%;
 }
-/* line 909, sass/base/_oldcss.scss */
+/* line 901, sass/base/_oldcss.scss */
 .owl-carousel .owl-item .owl-lazy {
   opacity: 0;
   transition: opacity 400ms ease;
 }
-/* line 913, sass/base/_oldcss.scss */
+/* line 905, sass/base/_oldcss.scss */
 .owl-carousel .owl-item img.owl-lazy {
   transform-style: preserve-3d;
 }
-/* line 917, sass/base/_oldcss.scss */
+/* line 909, sass/base/_oldcss.scss */
 .owl-carousel .owl-nav.disabled {
   display: none;
 }
-/* line 920, sass/base/_oldcss.scss */
+/* line 912, sass/base/_oldcss.scss */
 .owl-carousel .owl-dots.disabled {
   display: none;
 }
-/* line 924, sass/base/_oldcss.scss */
+/* line 916, sass/base/_oldcss.scss */
 .owl-carousel .owl-nav .owl-prev {
   cursor: pointer;
   cursor: hand;
@@ -10153,7 +10144,7 @@ footer .col-md-3 {
   -ms-user-select: none;
   user-select: none;
 }
-/* line 933, sass/base/_oldcss.scss */
+/* line 925, sass/base/_oldcss.scss */
 .owl-carousel .owl-nav .owl-next {
   cursor: pointer;
   cursor: hand;
@@ -10163,7 +10154,7 @@ footer .col-md-3 {
   -ms-user-select: none;
   user-select: none;
 }
-/* line 943, sass/base/_oldcss.scss */
+/* line 935, sass/base/_oldcss.scss */
 .owl-carousel .owl-dot {
   cursor: pointer;
   cursor: hand;
@@ -10173,46 +10164,46 @@ footer .col-md-3 {
   -ms-user-select: none;
   user-select: none;
 }
-/* line 952, sass/base/_oldcss.scss */
+/* line 944, sass/base/_oldcss.scss */
 .owl-carousel .animated {
   animation-duration: 1000ms;
   animation-fill-mode: both;
 }
-/* line 956, sass/base/_oldcss.scss */
+/* line 948, sass/base/_oldcss.scss */
 .owl-carousel .owl-animated-in {
   z-index: 0;
 }
-/* line 959, sass/base/_oldcss.scss */
+/* line 951, sass/base/_oldcss.scss */
 .owl-carousel .owl-animated-out {
   z-index: 1;
 }
-/* line 962, sass/base/_oldcss.scss */
+/* line 954, sass/base/_oldcss.scss */
 .owl-carousel .fadeOut {
   animation-name: fadeOut;
 }
 
-/* line 966, sass/base/_oldcss.scss */
+/* line 958, sass/base/_oldcss.scss */
 .owl-carousel.owl-loaded {
   display: block;
 }
 
-/* line 969, sass/base/_oldcss.scss */
+/* line 961, sass/base/_oldcss.scss */
 .owl-carousel.owl-loading {
   opacity: 0;
   display: block;
 }
 
-/* line 973, sass/base/_oldcss.scss */
+/* line 965, sass/base/_oldcss.scss */
 .owl-carousel.owl-hidden {
   opacity: 0;
 }
 
-/* line 977, sass/base/_oldcss.scss */
+/* line 969, sass/base/_oldcss.scss */
 .owl-carousel.owl-refresh .owl-item {
   visibility: hidden;
 }
 
-/* line 982, sass/base/_oldcss.scss */
+/* line 974, sass/base/_oldcss.scss */
 .owl-carousel.owl-drag .owl-item {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -10220,32 +10211,32 @@ footer .col-md-3 {
   user-select: none;
 }
 
-/* line 989, sass/base/_oldcss.scss */
+/* line 981, sass/base/_oldcss.scss */
 .owl-carousel.owl-grab {
   cursor: move;
   cursor: grab;
 }
 
-/* line 993, sass/base/_oldcss.scss */
+/* line 985, sass/base/_oldcss.scss */
 .owl-carousel.owl-rtl {
   direction: rtl;
 }
-/* line 995, sass/base/_oldcss.scss */
+/* line 987, sass/base/_oldcss.scss */
 .owl-carousel.owl-rtl .owl-item {
   float: right;
 }
 
-/* line 1000, sass/base/_oldcss.scss */
+/* line 992, sass/base/_oldcss.scss */
 .no-js .owl-carousel {
   display: block;
 }
 
-/* line 1004, sass/base/_oldcss.scss */
+/* line 996, sass/base/_oldcss.scss */
 .owl-height {
   transition: height 500ms ease-in-out;
 }
 
-/* line 1007, sass/base/_oldcss.scss */
+/* line 999, sass/base/_oldcss.scss */
 .owl-prev {
   position: absolute;
   width: 36px;
@@ -10258,7 +10249,7 @@ footer .col-md-3 {
   z-index: 9999;
 }
 
-/* line 1018, sass/base/_oldcss.scss */
+/* line 1010, sass/base/_oldcss.scss */
 .owl-next {
   position: absolute;
   width: 36px;
@@ -10271,7 +10262,7 @@ footer .col-md-3 {
   z-index: 9999;
 }
 
-/* line 1030, sass/base/_oldcss.scss */
+/* line 1022, sass/base/_oldcss.scss */
 .single-post a.btn {
   font-weight: 400;
   font-size: 18px;
@@ -10280,13 +10271,13 @@ footer .col-md-3 {
   border: 0;
   border-radius: 5px;
 }
-/* line 1038, sass/base/_oldcss.scss */
+/* line 1030, sass/base/_oldcss.scss */
 .single-post .tagpost {
   margin-top: 10px;
   margin-bottom: 16px;
 }
 
-/* line 1044, sass/base/_oldcss.scss */
+/* line 1036, sass/base/_oldcss.scss */
 .page-template-news a.btn {
   font-weight: 400;
   font-size: 18px;
@@ -10296,7 +10287,7 @@ footer .col-md-3 {
   border-radius: 5px;
 }
 
-/* line 1053, sass/base/_oldcss.scss */
+/* line 1045, sass/base/_oldcss.scss */
 .formvisa {
   padding: 20px 20px 0 20px;
   margin: 0 auto;
@@ -10304,19 +10295,19 @@ footer .col-md-3 {
   background: #ddd;
   border-radius: 5px;
 }
-/* line 1059, sass/base/_oldcss.scss */
+/* line 1051, sass/base/_oldcss.scss */
 .formvisa .inp {
   margin-bottom: 20px;
 }
-/* line 1062, sass/base/_oldcss.scss */
+/* line 1054, sass/base/_oldcss.scss */
 .formvisa .headvisa {
   margin-bottom: 20px;
 }
-/* line 1065, sass/base/_oldcss.scss */
+/* line 1057, sass/base/_oldcss.scss */
 .formvisa .tinp {
   margin-bottom: 16px;
 }
-/* line 1068, sass/base/_oldcss.scss */
+/* line 1060, sass/base/_oldcss.scss */
 .formvisa input {
   width: 100%;
   max-width: 100%;
@@ -10326,7 +10317,7 @@ footer .col-md-3 {
   box-sizing: border-box;
   padding-left: 12px;
 }
-/* line 1077, sass/base/_oldcss.scss */
+/* line 1069, sass/base/_oldcss.scss */
 .formvisa textarea {
   width: 100%;
   max-width: 100%;
@@ -10338,7 +10329,7 @@ footer .col-md-3 {
   padding-right: 12px;
   padding-top: 5px;
 }
-/* line 1088, sass/base/_oldcss.scss */
+/* line 1080, sass/base/_oldcss.scss */
 .formvisa .wpcf7-submit {
   display: block;
   color: #fff;
@@ -10347,13 +10338,13 @@ footer .col-md-3 {
   padding-right: 12px;
 }
 
-/* line 1096, sass/base/_oldcss.scss */
+/* line 1088, sass/base/_oldcss.scss */
 .headvisa {
   font-size: 16px;
   text-align: center;
 }
 
-/* line 1100, sass/base/_oldcss.scss */
+/* line 1092, sass/base/_oldcss.scss */
 .butmodal {
   float: right;
   margin-right: 18px;
@@ -10363,31 +10354,31 @@ footer .col-md-3 {
   padding-right: 17px;
 }
 
-/* line 1108, sass/base/_oldcss.scss */
+/* line 1100, sass/base/_oldcss.scss */
 .modal-body {
   padding: 0 !important;
 }
 
-/* line 1111, sass/base/_oldcss.scss */
+/* line 1103, sass/base/_oldcss.scss */
 .formcall {
   padding: 20px 20px 0 20px;
   margin: 0 auto;
   background: #ddd;
   border-radius: 5px;
 }
-/* line 1116, sass/base/_oldcss.scss */
+/* line 1108, sass/base/_oldcss.scss */
 .formcall .inp {
   margin-bottom: 20px;
 }
-/* line 1119, sass/base/_oldcss.scss */
+/* line 1111, sass/base/_oldcss.scss */
 .formcall .headcall {
   margin-bottom: 20px;
 }
-/* line 1122, sass/base/_oldcss.scss */
+/* line 1114, sass/base/_oldcss.scss */
 .formcall .tinp {
   margin-bottom: 16px;
 }
-/* line 1125, sass/base/_oldcss.scss */
+/* line 1117, sass/base/_oldcss.scss */
 .formcall input {
   width: 100%;
   max-width: 100%;
@@ -10397,7 +10388,7 @@ footer .col-md-3 {
   box-sizing: border-box;
   padding-left: 12px;
 }
-/* line 1134, sass/base/_oldcss.scss */
+/* line 1126, sass/base/_oldcss.scss */
 .formcall textarea {
   width: 100%;
   max-width: 100%;
@@ -10409,7 +10400,7 @@ footer .col-md-3 {
   padding-right: 12px;
   padding-top: 5px;
 }
-/* line 1145, sass/base/_oldcss.scss */
+/* line 1137, sass/base/_oldcss.scss */
 .formcall .wpcf7-submit {
   display: block;
   color: #fff;
@@ -10418,13 +10409,13 @@ footer .col-md-3 {
   padding-right: 12px;
 }
 
-/* line 1153, sass/base/_oldcss.scss */
+/* line 1145, sass/base/_oldcss.scss */
 .headcall {
   font-size: 22px;
   text-align: center;
 }
 
-/* line 1158, sass/base/_oldcss.scss */
+/* line 1150, sass/base/_oldcss.scss */
 .modal-content button.close {
   position: absolute;
   top: -20px;
@@ -10434,12 +10425,12 @@ footer .col-md-3 {
   opacity: 1 !important;
 }
 
-/* line 1168, sass/base/_oldcss.scss */
+/* line 1160, sass/base/_oldcss.scss */
 body.tag .name_tour {
   margin-bottom: 0;
 }
 
-/* line 1172, sass/base/_oldcss.scss */
+/* line 1164, sass/base/_oldcss.scss */
 .tur {
   margin: 0 0 20px;
   padding: 20px;
@@ -10448,7 +10439,7 @@ body.tag .name_tour {
   line-height: 1.7;
   color: #333;
 }
-/* line 1179, sass/base/_oldcss.scss */
+/* line 1171, sass/base/_oldcss.scss */
 .tur .btn {
   margin-top: 10px;
   padding: 8px 10px;
@@ -10457,69 +10448,64 @@ body.tag .name_tour {
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 1189, sass/base/_oldcss.scss */
-  .social_ico a:first-child {
-    margin-left: 28px;
-  }
-
-  /* line 1195, sass/base/_oldcss.scss */
+  /* line 1180, sass/base/_oldcss.scss */
   .logo img {
     margin-left: 0;
   }
 
-  /* line 1200, sass/base/_oldcss.scss */
+  /* line 1185, sass/base/_oldcss.scss */
   .search-form .search-field {
     width: 135px !important;
   }
 
-  /* line 1204, sass/base/_oldcss.scss */
+  /* line 1189, sass/base/_oldcss.scss */
   .reviews_text {
     display: block;
   }
 
-  /* line 1207, sass/base/_oldcss.scss */
+  /* line 1192, sass/base/_oldcss.scss */
   .reviews_text_img {
     display: none;
   }
 
-  /* line 1210, sass/base/_oldcss.scss */
+  /* line 1195, sass/base/_oldcss.scss */
   .reviews_text_info {
     margin: 0;
   }
 
-  /* line 1213, sass/base/_oldcss.scss */
+  /* line 1198, sass/base/_oldcss.scss */
   .reviews_in_reviews {
     float: none;
     display: block;
   }
-  /* line 1216, sass/base/_oldcss.scss */
+  /* line 1201, sass/base/_oldcss.scss */
   .reviews_in_reviews img {
     display: none;
   }
 
-  /* line 1220, sass/base/_oldcss.scss */
+  /* line 1205, sass/base/_oldcss.scss */
   .review {
     width: auto;
   }
 
-  /* line 1223, sass/base/_oldcss.scss */
+  /* line 1208, sass/base/_oldcss.scss */
   .tur-blu {
     width: 170px;
   }
 
-  /* line 1226, sass/base/_oldcss.scss */
+  /* line 1211, sass/base/_oldcss.scss */
   .tur-blu-col {
     padding: 0 10px;
   }
 
-  /* line 1230, sass/base/_oldcss.scss */
+  /* line 1215, sass/base/_oldcss.scss */
   header + .container img {
     max-width: 100%;
     height: auto;
   }
 }
 @media only screen and (max-width: 991px) {
-  /* line 1237, sass/base/_oldcss.scss */
+  /* line 1222, sass/base/_oldcss.scss */
   .toggle-menu {
     width: 35px;
     position: fixed;
@@ -10530,19 +10516,19 @@ body.tag .name_tour {
     border: 3px solid #fff;
     z-index: 12;
   }
-  /* line 1246, sass/base/_oldcss.scss */
+  /* line 1231, sass/base/_oldcss.scss */
   .toggle-menu span {
     display: block;
     height: 4px;
     background: #2c5495;
     margin-top: 4px;
   }
-  /* line 1251, sass/base/_oldcss.scss */
+  /* line 1236, sass/base/_oldcss.scss */
   .toggle-menu span:first-child {
     margin-top: 0;
   }
 
-  /* line 1256, sass/base/_oldcss.scss */
+  /* line 1241, sass/base/_oldcss.scss */
   .menu {
     z-index: 12;
     position: fixed;
@@ -10555,7 +10541,7 @@ body.tag .name_tour {
     display: none;
   }
 
-  /* line 1267, sass/base/_oldcss.scss */
+  /* line 1252, sass/base/_oldcss.scss */
   .overlay {
     position: fixed;
     background: rgba(44, 84, 149, 0.9);
@@ -10567,41 +10553,36 @@ body.tag .name_tour {
     display: none;
   }
 
-  /* line 1278, sass/base/_oldcss.scss */
+  /* line 1263, sass/base/_oldcss.scss */
   header .container {
     position: relative;
   }
-  /* line 1282, sass/base/_oldcss.scss */
+  /* line 1267, sass/base/_oldcss.scss */
   header .row > div {
     float: left;
   }
-  /* line 1285, sass/base/_oldcss.scss */
+  /* line 1270, sass/base/_oldcss.scss */
   header .row > div.col-md-3 {
     float: right;
     padding-right: 50px;
   }
 
-  /* line 1291, sass/base/_oldcss.scss */
+  /* line 1276, sass/base/_oldcss.scss */
   .contact_phone {
     margin-right: 0;
   }
 
-  /* line 1294, sass/base/_oldcss.scss */
-  .social_ico {
-    text-align: right;
-  }
-
-  /* line 1297, sass/base/_oldcss.scss */
+  /* line 1279, sass/base/_oldcss.scss */
   .no-gutter {
     text-align: center;
     margin-bottom: 20px;
   }
-  /* line 1301, sass/base/_oldcss.scss */
+  /* line 1283, sass/base/_oldcss.scss */
   .no-gutter .tour_img img {
     width: 100%;
   }
 
-  /* line 1307, sass/base/_oldcss.scss */
+  /* line 1289, sass/base/_oldcss.scss */
   .tours-list > .col-md-6 {
     margin: 1%;
     display: inline-block;
@@ -10611,87 +10592,87 @@ body.tag .name_tour {
     float: none;
   }
 
-  /* line 1316, sass/base/_oldcss.scss */
+  /* line 1298, sass/base/_oldcss.scss */
   .tour_country_wr {
     margin: 0;
   }
 
-  /* line 1319, sass/base/_oldcss.scss */
+  /* line 1301, sass/base/_oldcss.scss */
   .search {
     display: none;
   }
 
-  /* line 1323, sass/base/_oldcss.scss */
+  /* line 1305, sass/base/_oldcss.scss */
   .btn-buy .col-md-6 {
     text-align: center;
   }
-  /* line 1325, sass/base/_oldcss.scss */
+  /* line 1307, sass/base/_oldcss.scss */
   .btn-buy .col-md-6 .btn-danger {
     display: inline-block;
     float: none;
   }
-  /* line 1329, sass/base/_oldcss.scss */
+  /* line 1311, sass/base/_oldcss.scss */
   .btn-buy .col-md-6 .btn-primary {
     display: inline-block;
     float: none;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 1337, sass/base/_oldcss.scss */
+  /* line 1319, sass/base/_oldcss.scss */
   table {
     width: 100%;
   }
 
-  /* line 1340, sass/base/_oldcss.scss */
+  /* line 1322, sass/base/_oldcss.scss */
   .tur-blu {
     font-size: 14px;
     line-height: 16px;
     padding: 5px;
     min-height: inherit;
   }
-  /* line 1345, sass/base/_oldcss.scss */
+  /* line 1327, sass/base/_oldcss.scss */
   .tur-blu img {
     width: 15px;
     height: 15px;
   }
 
-  /* line 1350, sass/base/_oldcss.scss */
+  /* line 1332, sass/base/_oldcss.scss */
   .departure_dep {
     font-size: 14px;
   }
 
-  /* line 1353, sass/base/_oldcss.scss */
+  /* line 1335, sass/base/_oldcss.scss */
   .tur-table-td1 {
     font-size: 14px;
   }
 
-  /* line 1356, sass/base/_oldcss.scss */
+  /* line 1338, sass/base/_oldcss.scss */
   .tur-table-td2 {
     font-size: 14px;
   }
 
-  /* line 1359, sass/base/_oldcss.scss */
+  /* line 1341, sass/base/_oldcss.scss */
   .departure_date {
     font-size: 14px;
   }
 
-  /* line 1363, sass/base/_oldcss.scss */
+  /* line 1345, sass/base/_oldcss.scss */
   .tur-blu-col span {
     font-size: 14px;
   }
 
-  /* line 1367, sass/base/_oldcss.scss */
+  /* line 1349, sass/base/_oldcss.scss */
   .tur-table-name {
     font-size: 16px;
   }
 
-  /* line 1371, sass/base/_oldcss.scss */
+  /* line 1353, sass/base/_oldcss.scss */
   .tagpost a {
     display: inline-block;
     margin: 2px;
   }
 
-  /* line 1377, sass/base/_oldcss.scss */
+  /* line 1359, sass/base/_oldcss.scss */
   .btn-buy > div {
     padding: 0;
     float: none;
@@ -10699,16 +10680,16 @@ body.tag .name_tour {
     margin-bottom: 20px;
   }
 
-  /* line 1385, sass/base/_oldcss.scss */
+  /* line 1367, sass/base/_oldcss.scss */
   .col-md-12 > .col-md-9 {
     padding: 0;
   }
-  /* line 1388, sass/base/_oldcss.scss */
+  /* line 1370, sass/base/_oldcss.scss */
   .col-md-12 > .col-md-3 {
     padding: 0;
   }
 
-  /* line 1393, sass/base/_oldcss.scss */
+  /* line 1375, sass/base/_oldcss.scss */
   .count a {
     display: inline-block;
     vertical-align: top;
@@ -10716,124 +10697,114 @@ body.tag .name_tour {
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 1402, sass/base/_oldcss.scss */
+  /* line 1384, sass/base/_oldcss.scss */
   .tours-list > .col-md-6 {
     margin: 0 0 10px;
     display: block;
     width: auto;
   }
 
-  /* line 1408, sass/base/_oldcss.scss */
-  .social_ico {
-    padding-bottom: 10px;
-    text-align: center;
-  }
-  /* line 1412, sass/base/_oldcss.scss */
-  .social_ico a:first-child {
-    margin-left: 0;
-  }
-
-  /* line 1417, sass/base/_oldcss.scss */
+  /* line 1390, sass/base/_oldcss.scss */
   body {
     min-width: 320px;
   }
 
-  /* line 1422, sass/base/_oldcss.scss */
+  /* line 1395, sass/base/_oldcss.scss */
   header .row > div {
     width: auto;
     float: none;
   }
-  /* line 1426, sass/base/_oldcss.scss */
+  /* line 1399, sass/base/_oldcss.scss */
   header .row > div.col-md-3 {
     text-align: center;
     float: none;
     padding: 0;
   }
 
-  /* line 1433, sass/base/_oldcss.scss */
+  /* line 1406, sass/base/_oldcss.scss */
   .logo {
     width: 128px;
     margin: 0 auto 10px;
     display: block;
   }
 
-  /* line 1438, sass/base/_oldcss.scss */
+  /* line 1411, sass/base/_oldcss.scss */
   .contact_phone {
     text-align: center;
   }
 
-  /* line 1442, sass/base/_oldcss.scss */
+  /* line 1415, sass/base/_oldcss.scss */
   .flag-box .bx {
     width: auto;
     float: none;
     margin-bottom: 20px;
   }
-  /* line 1446, sass/base/_oldcss.scss */
+  /* line 1419, sass/base/_oldcss.scss */
   .flag-box .bx p {
     max-width: 175px;
   }
-  /* line 1449, sass/base/_oldcss.scss */
+  /* line 1422, sass/base/_oldcss.scss */
   .flag-box .bx .img {
     margin-right: 10px;
   }
-  /* line 1453, sass/base/_oldcss.scss */
+  /* line 1426, sass/base/_oldcss.scss */
   .flag-box .wr {
     margin-bottom: 0;
   }
-  /* line 1456, sass/base/_oldcss.scss */
+  /* line 1429, sass/base/_oldcss.scss */
   .flag-box .bx1 {
     margin-bottom: 20px;
   }
 
-  /* line 1463, sass/base/_oldcss.scss */
+  /* line 1436, sass/base/_oldcss.scss */
   .contact-box .bx .img img {
     width: 50px;
     height: auto;
   }
-  /* line 1468, sass/base/_oldcss.scss */
+  /* line 1441, sass/base/_oldcss.scss */
   .contact-box .bx p {
     max-width: 190px;
   }
 
-  /* line 1475, sass/base/_oldcss.scss */
+  /* line 1448, sass/base/_oldcss.scss */
   .touts-box .row > div {
     width: auto;
     float: none;
   }
 
-  /* line 1484, sass/base/_oldcss.scss */
+  /* line 1457, sass/base/_oldcss.scss */
   .tur-name-wr tr td:first-child {
     display: none;
   }
-  /* line 1487, sass/base/_oldcss.scss */
+  /* line 1460, sass/base/_oldcss.scss */
   .tur-name-wr tr td:last-child {
     display: none;
   }
 }
 @media screen and (max-width: 63.9375em) {
-  /* line 1495, sass/base/_oldcss.scss */
+  /* line 1468, sass/base/_oldcss.scss */
   #paginate {
     margin: 0 0 1rem;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 1500, sass/base/_oldcss.scss */
+  /* line 1473, sass/base/_oldcss.scss */
   .formvisa {
     max-width: 560px;
   }
 
-  /* line 1503, sass/base/_oldcss.scss */
+  /* line 1476, sass/base/_oldcss.scss */
   .headvisa {
     padding-left: 32px;
     padding-right: 32px;
   }
 
-  /* line 1507, sass/base/_oldcss.scss */
+  /* line 1480, sass/base/_oldcss.scss */
   .formcall {
     max-width: 400px;
   }
 
-  /* line 1510, sass/base/_oldcss.scss */
+  /* line 1483, sass/base/_oldcss.scss */
   .modal-sm {
     width: 400px !important;
     margin-top: 150px !important;
@@ -10879,4 +10850,23 @@ body.tag .name_tour {
 /* line 12, sass/components/_header.scss */
 #navbar-wrapper .affix + .container {
   padding-top: 70px;
+}
+
+/* line 18, sass/components/_header.scss */
+.social_icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: calc(48px*4);
+  float: right;
+  padding-right: 22px;
+}
+/* line 26, sass/components/_header.scss */
+.social_icons a {
+  display: inline-flex;
+  margin-right: 8px;
+}
+/* line 30, sass/components/_header.scss */
+.social_icons a:last-of-type {
+  margin-right: 0;
 }
