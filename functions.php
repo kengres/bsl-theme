@@ -1,4 +1,11 @@
 <?php
+
+// paths
+$theme_path = get_template_directory();
+$inc_path = $theme_path . '/inc/';
+// require customizer
+require_once($inc_path . 'custom-editable.php');
+
 // bootstrap navwalker
 if ( ! file_exists( get_template_directory() . '/wp-bootstrap-navwalker.php' ) ) {
 	// file does not exist... return an error.
@@ -11,8 +18,8 @@ if ( ! file_exists( get_template_directory() . '/wp-bootstrap-navwalker.php' ) )
 // loading css
 function parasoil_enqueue_css() {
   // bootstrap
-  wp_register_style('bootstrap.min', get_template_directory_uri() . '/css/bootstrap.min.css');
-  wp_enqueue_style('bootstrap.min');
+  // wp_register_style('bootstrap.min', get_template_directory_uri() . '/css/bootstrap.min.css');
+  // wp_enqueue_style('bootstrap.min');
 
   // custom styles
   wp_register_style( 'parasoil_styles', get_template_directory_uri() . '/style.css', array(), filemtime( get_stylesheet_directory() . '/style.css'), all);

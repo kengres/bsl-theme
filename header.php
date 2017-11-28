@@ -13,12 +13,6 @@
     <link rel="manifest" href="/manifest.json">
     <link rel="mask-icon" href="<?=bloginfo('template_url')?>/images/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
 <?php wp_head();?>
 </head>
@@ -63,37 +57,33 @@
           </div>
 
           <div class="overlay"></div>
-          <!-- <div class="toggle-menu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div> -->
-          <!-- <div class="theme_menu"> -->
-
-            <!-- <ul>
-              <li><a <?php // if($_SERVER['REQUEST_URI']=='/'): ?> class="active" <?php // endif;?>href="/">Туры</a></li>
-                <li><a <?php // if($_SERVER['REQUEST_URI']=='/oteli/'): ?> class="active" <?php // endif;?>  href="/?page_id=8">Отели</a></li>
-                <li><a <?php // if($_SERVER['REQUEST_URI']=='/bilety/'):?> class="active" <?php // endif;?> href="vsestrany">Страны</a></li>
-                <li><a <?php // if($_SERVER['REQUEST_URI']=='/bilety/'): ?> class="active" <?php // endif;?> href="/?page_id=10">Билеты</a></li>
-                <li><a <?php //  if($_SERVER['REQUEST_URI']=='/?page_id=12'): ?> class="active" <?php // endif;?> href="vizy">Визы</a></li>
-                <li><a <?php // if($_SERVER['REQUEST_URI']=='/?page_id=14'): ?> class="active" <?php //endif;?> href="/o-nas">О нас</a></li>
-            </ul> -->
-
-
-          <!-- </div> -->
         </div>
         <div class="col-md-3">
           <div class="contact_phone_wr">
-            <div class="contact_phone">+7 495 960-24-27</div>
-            <div class="contact_phone">+7 495 960-24-66</div>
-            <div class="contact_phone">+7 903 722-51-06</div>
+            <div class="contact_phone"><?php
+              echo get_theme_mod('para_numbers_one');
+            ?></div>
+            <div class="contact_phone"><?php
+              echo get_theme_mod('para_numbers_two');
+            ?></div>
+            <div class="contact_phone"><?php
+              echo get_theme_mod('para_numbers_three');
+            ?></div>
             <button class="butmodal	btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">ЗАКАЗАТЬ ЗВОНОК</button>
           </div>
           <div class="social_ico">
-            <a href="https://www.facebook.com/profile.php?id=100022588357694" target="_blank"><img src="<?=bloginfo('template_url')?>/images/fb.png" alt="social_ico"></a>
-            <a href="https://vk.com/paraisol" target="_blank"><img src="<?=bloginfo('template_url')?>/images/vk.png" alt="social_ico"></a>
-            <a href="#" target="_blank"><img src="<?=bloginfo('template_url')?>/images/inst.png" alt="social_ico"></a>
-            <a href="mailto:info@paraisol.ru"><img src="<?=bloginfo('template_url')?>/images/mail.png" alt="social_ico"></a>
+            <a href="<?php echo get_theme_mod('para_social_facebook');?>" target="_blank">
+              <img src="<?=bloginfo('template_url')?>/images/fb.png" alt="social_ico">
+            </a>
+            <a href="<?php echo get_theme_mod('para_social_vkontakte');?>" target="_blank">
+              <img src="<?=bloginfo('template_url')?>/images/vk.png" alt="social_ico">
+            </a>
+            <a href="<?php echo get_theme_mod('para_social_instagram');?>" target="_blank">
+              <img src="<?=bloginfo('template_url')?>/images/inst.png" alt="social_ico">
+            </a>
+            <a href="mailto:<?php echo get_theme_mod('para_social_email');?>">
+              <img src="<?=bloginfo('template_url')?>/images/mail.png" alt="social_ico">
+            </a>
           </div>
         </div>
       </div>
