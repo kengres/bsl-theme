@@ -1,4 +1,5 @@
-<?php /** Template Name: main **/
+<?php /** Template Name: hotels **/
+
 	get_header();
 	if(isset($_POST['email'])):
 	$email=$_POST['email'];
@@ -13,32 +14,16 @@
         <div class="row">
             <div class="col-md-9">
                 <div class="name_tour1 ">
-                    <div class="name_tour_text">Подбор тура</div>
+                    <div class="name_tour_text">Подбор отеля</div>
                 </div>
-                <script type="text/javascript" src="//ui.sletat.ru/module-5.0/app.js" charset="utf-8"></script>
-                <script type="text/javascript">sletat.createModule5('Search', {
-                        nightsMin         : 7,
-                        files             : ["//ui.sletat.ru/module-5.0/theme/tuxedo_dec2015.min.css"],
-                        agencyContact1    : {
-                            phone           : "+7 (495) 960-24-27",
-                            email           : "info@paraisol.ru"
-                        },
-                        enabledCurrencies : ["RUB", "EUR", "USD"],
-                        useCard           : true,
-                        formType          : "full",
-                        dateOffset        : 7,
-                        dateRange         : 7
-                    });
-				</script>
-                <span class="sletat-copyright">Идет загрузка модуля <a title="поиск туров" href="http://sletat.ru/" target="_blank" rel="noopener">поиска туров</a> …</span>
+                <br/>
+                <script charset="utf-8" src="//partner.onetwotrip.com/build/widget/form.widget.load.js?id=12735"  async></script>
+               
                 <div class="tours-list">
                     <div class="name_tour1">
-                        <div class="name_tour_text">Лучшие цены</div>
+                        <div class="name_tour_text"><?php the_title(); ?></php></div>
                     </div>
-                    <?php $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
-						
-						query_posts($query_string.'paged='.$paged.'&category_name=tours&showposts=12');
-              			if( have_posts() ) : while( have_posts() ) : the_post(); ?>
+                    <?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
                    
                     <div class="col-md-6">
                         <div class="tour_country_wr">

@@ -1,0 +1,121 @@
+// tour page scss
+.tour_links {
+  
+
+	.tour-col {
+		height: 180px;
+		margin-bottom: 20px;
+	}
+	
+	.tourLink {
+		display: block;
+		height: 100%;
+		width: 100%;
+		max-width: 385px;
+		border-radius: 8px;
+		transition: all .3s ease-in;
+
+		&:hover {
+			transform: scale(1.05);
+			box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+
+			.tour-inner-mask {
+				background-color: rgba($color: #000000, $alpha: .1);
+			}
+		}
+	}
+	
+
+  .tourInner {
+		display: block;
+		width: 100%;
+		height: 100%;
+		position: relative;
+		z-index: 1;
+  }
+  .tourImage {
+		position: absolute;
+		top: 0; left: 0; bottom: 0; right: 0;
+		z-index: 2;
+
+		img {
+			border-radius: 8px;
+			height: 100%;
+		}
+	}
+	.tour-inner-mask {
+		position: absolute;
+		top: 0; left: 0; bottom: 0; right: 0;
+		background-color: rgba($color: #000000, $alpha: .3);
+		z-index: 3;
+		border-radius: 8px;
+		transition: background-color .4s ease-in-out;
+	}
+	.tourContent {
+		position: absolute;
+		top: 0; left: 0; right: 0; bottom: 0;
+		z-index: 4;
+		border-radius: 8px;
+	}
+	.tourContent-inner {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		
+		.tour-country, .tour-money, .tour-time {
+			text-align: center;
+			position: absolute;
+			left: 0; right: 0;
+			z-index: 2;
+			font-weight: 600;
+			
+			.span {
+				background: $rougeDark;
+				display: inline-block;
+				padding: 3px 15px;
+				border-radius: 5px;
+			}
+
+		}
+		.tour-country {
+			top: 5px;
+			font-size: 20px;
+			color: #fff;
+		}
+		.tour-time {
+			background: rgba(255, 255, 255, 0.7);
+			// font-weight: normal;
+			color: #000000;
+			border-radius: 6px;
+			width: 75%;
+			height: 60%;
+			top: 50%; left: 50%;
+			transform: translate(-50%,-50%);
+			z-index: 1;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			padding: 10px 0;
+		}
+		.tour-money {
+			bottom: 5px;
+			font-size: 22px;
+			color: #fff;
+		}
+		.tour-date-time {
+			color: #000000;
+			font-size: 20px;
+		}
+		.tour-date {
+			color: $rougeDark;
+			text-shadow: 1px 1px #000000;
+			font-size: 22px;
+		}
+		.tour-text {
+			color: $rougeDark;
+			text-shadow: 2px 2px #000000;
+			font-size: 26px;
+		}
+	}
+}

@@ -2,7 +2,7 @@
 <div class="container">
   <div class="row">
 
-    <div class="col-md-9 line_hr">
+    <div class="col-sm-9 line_hr">
 
       <div class="copy_button">
       <div class="copy">
@@ -86,11 +86,13 @@
     характер и ни прикаких условиях не является публичной офертой, определяемой
     положением ст. 437 Гражданского Кодекса Росийской Федерации.</p>
     </div>
-    </div> <!-- end of col-md-9 line_hr -->
-    <div class="col-md-3">
-        <div class="footer_menu clearfix">
-          <?php $args = array('theme_location' => 'footer', ); ?>
-          <?php wp_nav_menu(); ?>
+    </div> <!-- end of col-sm-9 line_hr -->
+    <div class="col-sm-3">
+        <div class="footer_menu">
+          <div class="footer-menu-inner">
+            <?php $args = array('theme_location' => 'footer', ); ?>
+            <?php wp_nav_menu($args); ?>
+          </div>
         </div>
   			<div class="foot-info">
   				<div class="stroke">

@@ -1,17 +1,17 @@
+<?php
+/*
+  The header for our theme.
+ */
+
+?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="yandex-verification" content="4ab70243c3877620" />
+    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	  <title><?php if (function_exists('seo_title_tag')) { seo_title_tag(); } else { wp_title(); } ?></title>
-
-    <!-- Подключения favicon.ico -->
-    <link rel="apple-touch-icon" sizes="180x180" href="<?=bloginfo('template_url')?>/images/apple-touch-icon.png">
-    <link rel="icon" type="images/png" sizes="32x32" href="<?=bloginfo('template_url')?>/images/favicon-32x32.png">
-    <link rel="icon" type="images/png" sizes="16x16" href="<?=bloginfo('template_url')?>/images/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <link rel="mask-icon" href="<?=bloginfo('template_url')?>/images/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
 
 <?php wp_head();?>
@@ -38,10 +38,10 @@
               <?php
           endif;
           ?>
-        <div class="col-md-2 logo">
+        <div class="col-md-2 col-sm-3 logo">
           <a class="logo" href="/"><img src="<?=bloginfo('template_url')?>/images/logo.jpg" alt="logo"></a>
         </div>
-        <div class="col-xs-12 col-md-7">
+        <div class="col-md-7 col-sm-9">
           <div id="owl_banner" class="owl-carousel owl-theme">
             <?php $args = array( 'post_type' => 'banners', 'showposts' => '10' );
             $loop = new WP_Query( $args );
@@ -58,7 +58,7 @@
 
           <div class="overlay"></div>
         </div>
-        <div class="col-md-3">
+        <div class="col-sm-12 col-md-3">
           <div class="contact_phone_wr">
             <div class="contact_phone"><?php
               echo get_theme_mod('para_numbers_one');
@@ -69,10 +69,10 @@
             <div class="contact_phone"><?php
               echo get_theme_mod('para_numbers_three');
             ?></div>
-          </div>
-            <div class="clearfix">
+            <div class="clearfixs">
               <button class="butmodal	btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">ЗАКАЗАТЬ ЗВОНОК</button>
             </div>
+          </div>
           <div class="social_icons">
             <a href="<?php echo get_theme_mod('para_social_facebook');?>" target="_blank">
               <img src="<?=bloginfo('template_url')?>/images/fb.png" alt="social_ico">

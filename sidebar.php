@@ -43,16 +43,25 @@ endif;
         
 
 <div class="right_sidebar_head">
-<a href="/tag/specpredlozheniya/" style="color: white" > Спецпредложения</a>           
- 
-        </div>
+    <a href="/tag/specpredlozheniya/" style="color: white" > Спецпредложения</a>           
+ </div>
+
 <div class="sidebar_mini">
-<ul>
- <?php $pc = new WP_Query('category_name=specpredlojeniya &showposts=2'); ?> <?php while ($pc->have_posts()) : $pc->the_post(); ?> <li> <a href="<?php the_permalink(); ?>" title=""><?php the_post_thumbnail(array()); ?></a>
-<br/><br/>
-  </li> <?php endwhile; ?>
-</ul>
-<a href="/tag/specpredlozheniya/"> Все спецпредложения</a>  
+    <ul>
+        <?php $pc = new WP_Query('category_name=specpredlojeniya &showposts=2'); ?> 
+        <?php while ($pc->have_posts()) : $pc->the_post(); ?> 
+        
+            <li> 
+                <a href="<?php the_permalink(); ?>" title=""><?php the_post_thumbnail('full', array(
+                    'class' => 'img-responsive',
+                    'alt'   => 'Featured Image'
+                )); ?></a>
+                
+            </li> 
+        <?php endwhile; ?>
+    </ul>
+    
+    <a href="/tag/specpredlozheniya/"> Все спецпредложения</a>  
 </div>
    
 
