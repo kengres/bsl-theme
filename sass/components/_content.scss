@@ -1,7 +1,6 @@
 // tour page scss
 .tour_links {
   
-
 	.tour-col {
 		height: 180px;
 		margin-bottom: 20px;
@@ -117,5 +116,78 @@
 			text-shadow: 2px 2px #000000;
 			font-size: 26px;
 		}
+	}
+}
+// index css
+.content_wr, .homeNews {
+	.noMarginTop {
+		margin-top: 0;
+	}
+	.xs-small {
+		@media(max-width: 767px){
+			font-size: 18px;
+		}
+	}
+	.novostiRow {
+		margin-bottom: 20px;
+	}
+	.postLink {
+		text-decoration: none;
+		&:hover {
+			color: $primary;
+		}
+	}
+	.excerptDiv {
+		margin-top: 20px;
+
+		.excerptLink {
+			text-decoration: none;
+			background: lighten($rougeDark, 10%);
+			color: #fff;
+			padding: 10px 15px;
+			transition: all .3s ease-out;
+			
+			&:hover {
+				background: lighten($rougeDark, 1%);
+				box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.3)
+
+			}
+		}
+	}
+}
+// tags css
+.tag-tour-col {
+	height: 190px;
+	margin-bottom: 30px;
+
+	.tag-tour-inner {
+		position: relative;
+		z-index: 1;
+		height: 100%;
+		width: 100%;
+		transition: transform .3s ease-out;
+
+		&:hover {
+			transform: scale(1.08);
+			.tour-inner-mask {
+				opacity: 0;
+			}
+		}
+	}
+	.tag-tourImage, .tour-inner-mask {
+		position: absolute;
+		top: 0; bottom: 0;
+	}
+	.tag-tourImage {
+		left: 0; right: 0;
+		z-index: 2;
+		img {
+			height: 100%;
+		}
+	}
+	.tour-inner-mask {
+		background: rgba(0, 0, 0, 0.3);
+		z-index: 3;
+		transition: opacity .2s ease-in-out;
 	}
 }
