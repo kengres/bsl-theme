@@ -98,7 +98,7 @@ function para_social_links($wp_customize) {
 
 add_action('customize_register', 'para_social_links');
 
-// About us fields
+// About us fields 
 function para_home_about($wp_customize) {
   $wp_customize->add_section('para_home_about_section', array(
     'title' => 'О нас (на главной)',
@@ -139,6 +139,5 @@ function para_home_about($wp_customize) {
 
 }
 
-add_action('customize_register', 'para_home_about')
-  ?>
-
+add_action('customize_register', 'para_home_about');
+?>
