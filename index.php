@@ -8,61 +8,65 @@
 ?>
 
 
-
 <div class="content_wr">
     <div class="container">
         <div class="row">
             <div class="col-md-9">
-                <div class="name_tour1 ">
-                    <div class="name_tour_text">Подбор отеля</div>
-                </div>
-                <br/>
-                <script charset="utf-8" src="//partner.onetwotrip.com/build/widget/form.widget.load.js?id=12735"  async></script>
-               
-                <div class="tours-list">
-                    <div class="name_tour1">
-                        <div class="name_tour_text"><?php the_title(); ?></php></div>
-                    </div>
-                    <?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
-                   
-                    <div class="col-md-6">
-                        <div class="tour_country_wr">
-                            <div class="no-gutter">
-                                <div class="col-md-12 tour_img">
-                                	<div class="tour_country_wr">
-                                    	<a href="<?php the_permalink(); ?>"><?=the_post_thumbnail(array(380,197)); ?></a>
-                                    </div>
-                                </div>
-                                <div class="col-md-6"></div>
-                            </div>
-                        </div>
+              <div class="page-header">
+                <h2>Новости</h2>
+              </div>
+              <?php
+                $paged = get_query_var( 'paged' ) ? absint( get_query_var( 'paged' ) ) : 1;
+                $novostiPosts = new WP_Query(array(
+                    'category_name'  => 'novosti',
+                    'posts_per_page' => 12,
+                    'paged'          => $paged
+                ));
+                if ($novostiPosts->have_posts()) :
+                  while ($novostiPosts->have_posts()) : $novostiPosts->the_post(); ?>
+                    <div class="row">
+                      <div class="col-xs-4 col-sm-4">
+
+                        <a href="<?php the_permalink() ?>" class="thumbnail">
+                            <?php the_post_thumbnail('full', array (
+                            'class' => 'img-responsive',
+                            'alt'   => 'Featured Image'
+                            ))?>
+                        </a>
+                      </div>
+
+                      <div class="col-xs-6 col-md-8">
+                        <a href="<?php the_permalink() ?>">
+                            <h3><?php the_title() ?></h3>
+                        </a>
+                        <?php echo get_the_excerpt(); ?>
+                      </div>
                     </div>
                     
                     <?php endwhile; ?>
-						<div id="paginate" class="col-md-12">
-							<?php global $wp_query;
-								$big = 999999999; // need an unlikely integer
-								echo paginate_links( array(
-									'base' => str_replace( $big, '%#%', get_pagenum_link( $big ) ),
-									'format' => '?paged=%#%',
-									'current' => max( 1, get_query_var('paged') ),
-									'total' => $wp_query->max_num_pages,
+                <div id="paginate" class="col-md-12">
+                  <?php global $wp_query;
+                    $big = 999999999; // need an unlikely integer
+                    echo paginate_links( array(
+                      'base' => str_replace( $big, '%#%', get_pagenum_link( $big ) ),
+                      'format' => '?paged=%#%',
+                      'current' => max( 1, get_query_var('paged') ),
+                      'total' => $wp_query->max_num_pages,
 
-									'end_size' => 1,
-									'mid_size' => 2,
-									'prev_next' => true,
-									'prev_text' => 'Назад',
-									'next_text' => 'Вперед'
-								) ); ?>
-						</div>
-					<?php else : ?>
-						<div class="col-md-12">
-							<h1>Не найдено</h1>
-							<p>Извините, но того, что Вы искали, тут нет.</p>
-						</div>
-					<?php endif; wp_reset_query(); ?>
+                      'end_size' => 1,
+                      'mid_size' => 2,
+                      'prev_next' => true,
+                      'prev_text' => 'Назад',
+                      'next_text' => 'Вперед'
+                    ) ); ?>
                 </div>
-            </div>
+                <?php else : ?>
+                <div class="col-md-12">
+                  <h1>Не найдено</h1>
+                  <p>Извините, но того, что Вы искали, тут нет.</p>
+                </div>
+                <?php endif;  wp_reset_postdata();?>
+                </div>
 
             <?php get_sidebar(); ?>
         </div>

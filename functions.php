@@ -53,6 +53,21 @@ register_nav_menus(array(
   'footer' => __('Footer Menu'),
 ));
 
+// the excerpt length 
+function pt_custom_excerpt_length( $length ) {
+    return 20;
+}
+// read more
+if( !function_exists( "ptxs_excerpt_more" ) ) {
+    function ptxs_excerpt_more( $more ) {
+        return '...' . '<div><a href="'. get_permalink($post->ID) . '" class="excerptLink" title="Читать '
+        .get_the_title($post->ID).'">Читать&nbsp;дальше&nbsp;&raquo;</a></div>';
+    }
+}
+add_filter( 'excerpt_more', 'ptxs_excerpt_more' );
+
+
+add_filter( 'excerpt_length', 'pt_custom_excerpt_length', 999 );
 /* Theme setup */
 add_action( 'after_setup_theme', 'wpt_setup' );
     if ( ! function_exists( 'wpt_setup' ) ):
