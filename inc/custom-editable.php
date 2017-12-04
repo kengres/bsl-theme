@@ -110,11 +110,11 @@ function para_home_about($wp_customize) {
   ));
 
   $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'para_home_about_display_control', array(
-    'label'=> 'Display About section?',
-    'section' => 'para_home_about_section',
-    'settings' => 'para_home_about_display',
-    'type'    => 'select',
-    'choices' => array('No' => 'No', 'Yes' => 'Yes')
+    'label'     => 'Паказать эту секцию?',
+    'section'   => 'para_home_about_section',
+    'settings'  => 'para_home_about_display',
+    'type'      => 'select',
+    'choices'   => array('No' => 'Нет', 'Yes' => 'Да')
   )));
 
   // about tile

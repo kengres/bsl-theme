@@ -1,10 +1,11 @@
 <?php
 
 // paths
-$theme_path = get_template_directory();
-$inc_path = $theme_path . '/inc/';
+$THEME_PATH = get_template_directory();
+
+$INC_PATH = $THEME_PATH . '/inc/';
 // require customizer
-require_once($inc_path . 'custom-editable.php');
+require($INC_PATH . 'custom-editable.php');
 
 // bootstrap navwalker
 if ( ! file_exists( get_template_directory() . '/wp-bootstrap-navwalker.php' ) ) {
