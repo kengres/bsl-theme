@@ -104,6 +104,19 @@ function para_home_about($wp_customize) {
     'title' => 'О нас (на главной)',
   ));
 
+  // about display
+  $wp_customize->add_setting('para_home_about_display', array(
+    'default' => 'No'
+  ));
+
+  $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'para_home_about_display_control', array(
+    'label'=> 'Display About section?',
+    'section' => 'para_home_about_section',
+    'settings' => 'para_home_about_display',
+    'type'    => 'select',
+    'choices' => array('No' => 'No', 'Yes' => 'Yes')
+  )));
+
   // about tile
   $wp_customize->add_setting('para_home_about_title', array(
     'default' => 'Любите путешествовать и при этом не тратить лишние деньги?'
