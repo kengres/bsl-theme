@@ -96,5 +96,49 @@ function para_social_links($wp_customize) {
 
 }
 
-add_action('customize_register', 'para_social_links')
+add_action('customize_register', 'para_social_links');
+
+// About us fields
+function para_home_about($wp_customize) {
+  $wp_customize->add_section('para_home_about_section', array(
+    'title' => 'О нас (на главной)',
+  ));
+
+  // about tile
+  $wp_customize->add_setting('para_home_about_title', array(
+    'default' => 'Любите путешествовать и при этом не тратить лишние деньги?'
+  ));
+
+  $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'para_home_about_title_control', array(
+    'label'=> 'заголовок',
+    'section' => 'para_home_about_section',
+    'settings' => 'para_home_about_title'
+  )));
+
+  // paragraphe
+  $wp_customize->add_setting('para_home_about_paragraph', array(
+    'default' => 'Значит, вы правильно сделали, что заглянули к нам'
+  ));
+
+  $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'para_home_about_paragraph_control', array(
+    'label'    => 'Текст',
+    'section'  => 'para_home_about_section',
+    'settings' => 'para_home_about_paragraph',
+    'type'     => 'textarea'
+  )));
+
+  // Link
+  $wp_customize->add_setting('para_home_about_link');
+
+  $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'para_home_about_link_control', array(
+    'label'    => 'Ссылка',
+    'section'  => 'para_home_about_section',
+    'settings' => 'para_home_about_link',
+    'type'     => 'dropdown-pages'
+  )));
+
+}
+
+add_action('customize_register', 'para_home_about')
   ?>
+

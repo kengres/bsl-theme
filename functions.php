@@ -55,12 +55,12 @@ register_nav_menus(array(
 
 // the excerpt length 
 function pt_custom_excerpt_length( $length ) {
-    return 20;
+    return 25;
 }
 // read more
 if( !function_exists( "ptxs_excerpt_more" ) ) {
     function ptxs_excerpt_more( $more ) {
-        return '...' . '<div><a href="'. get_permalink($post->ID) . '" class="excerptLink" title="Читать '
+        return ' ...' . '<div class="excerptDiv"><a href="'. get_permalink($post->ID) . '" class="excerptLink" title="Читать '
         .get_the_title($post->ID).'">Читать&nbsp;дальше&nbsp;&raquo;</a></div>';
     }
 }
