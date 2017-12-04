@@ -31,7 +31,7 @@ endif;
 <br/><br/>
  </li> <?php endwhile; ?>
 </ul>
- <a href="/tag/sobytijnyj-turizm" >Все предложения</a>
+ <a href="/tag/sobytijnyj-turizm/" >Все предложения</a>
 </div>
 
     </div>
